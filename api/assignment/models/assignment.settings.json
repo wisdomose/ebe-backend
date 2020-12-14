@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assignments",
+  "info": {
+    "name": "assignment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "assignment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.assignment"
+    }
+  }
+}

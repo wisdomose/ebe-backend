@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_profile_assignments",
+  "info": {
+    "name": "assignment",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subject": {
+      "type": "string"
+    },
+    "submittedDate": {
+      "type": "date"
+    },
+    "submissionDate": {
+      "type": "date"
+    },
+    "assignment": {
+      "type": "richtext"
+    },
+    "teacher": {
+      "type": "string"
+    },
+    "class": {
+      "type": "enumeration",
+      "enum": [
+        "toyland",
+        "wonderland",
+        "merryland",
+        "emerald",
+        "jewel",
+        "pearl",
+        "silver",
+        "gold"
+      ]
+    }
+  }
+}

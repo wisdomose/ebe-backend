@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_profile_subjects",
+  "info": {
+    "name": "subject",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "subject": {
+      "type": "string"
+    }
+  }
+}

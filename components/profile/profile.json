@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_profile_profiles",
+  "info": {
+    "name": "profile",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "class": {
+      "type": "enumeration",
+      "enum": [
+        "toyland",
+        "wonderland",
+        "merryland",
+        "emerald",
+        "jewel",
+        "pearl",
+        "silver",
+        "gold"
+      ]
+    },
+    "midTermResult": {
+      "type": "json"
+    },
+    "examinationResult": {
+      "type": "json"
+    },
+    "subjectCombination": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.subject"
+    },
+    "dateOfBirth": {
+      "type": "date"
+    },
+    "profilePicture": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.contact"
+    },
+    "sex": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "dateJoined": {
+      "type": "date"
+    }
+  }
+}
